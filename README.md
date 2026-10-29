@@ -194,7 +194,23 @@ Shows the Kali Linux IPv4 address, routing information, and network connectivity
 
 Shows the saved snapshot of the Kali Linux virtual machine.
 
-## 7. Learning Outcomes
+## 7. Challenges and Troubleshooting
+
+Issue 1: Kali Linux Had No IPv4 Address
+
+Problem: Initially, the eth0 interface displayed only an IPv6 address.
+
+Solution: Used NetworkManager to configure the static IPv4 address, gateway, and DNS servers. Reactivated the connection and verified the resulting configuration.
+
+Result: Kali Linux successfully obtained the configured address 10.0.0.2/24, and gateway and external IP connectivity tests passed.
+
+Issue 2: General → Advanced Was Not Available
+
+Problem: The VirtualBox interface did not display the General → Advanced option mentioned in the assignment guide.
+
+Action taken: Checked the settings available in my installed VirtualBox version. Clipboard, drag-and-drop, and shared-folder functionality must be verified separately before marking these requirements as complete.
+
+## 8. Learning Outcomes
 
 Through this assignment, I gained practical experience with:
 
@@ -206,13 +222,13 @@ Through this assignment, I gained practical experience with:
 - Linux network troubleshooting and connectivity verification.
 - Virtual machine snapshots and recovery planning.
 
-## 8. Conclusion
+## 9. Conclusion
 
 This assignment provided hands-on experience in preparing a virtual cybersecurity lab using Oracle VirtualBox and Kali Linux. Configuring the static IP address and testing network connectivity helped strengthen my understanding of Linux networking and basic troubleshooting.
 
 The lab provides a foundation for future cybersecurity exercises, including network analysis, vulnerability assessment, and ethical hacking in authorized environments.
 
-## 9. References
+## 10. References
 
 - Oracle VirtualBox: https://www.virtualbox.org/
 - Kali Linux: https://www.kali.org/
